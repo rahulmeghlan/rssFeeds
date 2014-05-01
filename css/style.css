@@ -1,0 +1,35 @@
+.results {
+    border: 1px solid #000;
+    width: 200px;
+    margin: 10% auto;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.results .results_item {
+    -webkit-transition: 3s;
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+    from {
+        top: 0;
+    }
+    to {
+        top: -60px;
+    }
+}
+
+.results .results_item:nth-child(odd) {
+    background: peachpuff;
+    color: #000;
+}
+
+.results .results_item:nth-child(even) {
+    background: peru;
+    color: #000;
+}
+
+.results .results_item:nth-child(0), .results .results_item:nth-child(1) {
+}
