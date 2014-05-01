@@ -23,7 +23,7 @@
     }
 
     $(".reset").on("click", function () {
-        loopCount = 0;
+        loopCount = 1;
         lastItemHeight = 0;
         $feedItems.css({
             "transform": "translateY(0px)"
